@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Университет</title> 
+    <link rel="stylesheet" type="text/css" href="postup.css">
+    <script src="postup.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class = "glav_nach">
+            <div class = "oblozh">
+                <b><a href = "uni.html"> Главная</a>
+                <a href = "facul.html">Факультеты и кафедры</a>
+                <a href = "scien.html"> Научная деятельность</a>
+                <a class ="cont"> Контакты</a></b>
+            </div>
+                <div class = "line2"></div>
+        </section>
+        <section class = "time">
+         <h1><b> До конца подачи осталось:</b></h1>
+        
+
+
+<div id="timer">00:00:00:00</div>
+<script>
+   // Установите дату и время для обратного отсчета
+    const countdownDate = new Date("2025-06-15T12:59:59").getTime();
+
+    // Обновление отсчета каждую секунду
+    const x = setInterval(function() {
+        // Получаем текущее время
+        const now = new Date().getTime();
+
+        // Находим разницу между текущим временем и временем отсчета
+        const distance = countdownDate - now;
+
+        // Вычисляем время в днях, часах, минутах и секундах
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Отображаем результат на странице
+        document.getElementById("timer").innerHTML = days + "дней " + hours + "часов "
+            + minutes + "минут " + seconds + "секунд ";
+// Если отсчет завершен, выводим сообщение
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "Время вышло!";
+        }
+    }, 1000);
+</script>
+
+
+
+
+        </section>
+        <section class = "video">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://rutube.ru/play/embed/4c32e1d08a1a99fa8968fd2f08058785"
+              frameBorder="0"
+              allow="clipboard-write; autoplay"
+              webkitAllowFullScreen
+              mozallowfullscreen
+              allowFullScreen
+            ></iframe>
+          "
+        </section>
+        <section class = "quest">
+            <div class = "text_q">
+                <p>Если у вас есть какие вопросы - звоните! </p>
+            </div>
+            <div class = "text_q2">
+                <p>+7(966)-456-28-46 - телефон приемной комиссии</p>
+                <p>+7(914)-258-36-68 - телефон  горячей линии</p>
+                <p> +7(903)-176-65-83 - руководитель</p>
+            </div>
+
+        </section>
+    </header>
+    <section class = "footer">
+        <div class = "part">
+            <p><b> Наши партнеры</b></p>
+            <div class = "imges">
+                <img src = "sber.png">
+            </div>
+            <div class = "imges_t">
+                <img src = "tink.png">
+            </div>
+            <div class = "imges_y">
+                <img src = "yan.png">
+            </div>
+            <div class = "imges_xi">
+                <img src = "xi.png">
+            </div>
+        </div>
+        <div class = "conts">
+            <p><b>Наши контакты и адреса</b></p>
+            <div class = text_co>
+                <p>+78003533535  - директор универа Иванов И.И</p>
+                <p>+78005655912 - декан универа Петров П.П</p>
+                <p>+79665248675 - горячая линия</p>
+                <p>Юридический адрес: улица Солянка, д2к3</p>
+                <p>Адрес главного корпуса: улица Больших Каменщиков, д9к6 </p>
+            </div>
+        </div>
+        <div class = "comis">
+            <p><b>Приемная комиссия</b></p>
+            <div class = "text_mi">
+                <p>+7565598747 - телефон приемной комиссии</p>
+                <p>priem.comi@uni.com</p>
+            </div>
+            
+        </div>
+    </section>
+    </footer>

@@ -1,0 +1,178 @@
+<html>
+<head>
+    <title>Университет</title> 
+    <link rel="stylesheet" type="text/css" href="uni.css">
+</head>
+<body>
+    <header>
+        <section class = "glav_nach">
+            <div class = "oblozh">
+                <b><a href = "facul.html"> Факультеты и кафедры</a>
+                <a href = "postup.html"> Поступление</a>
+                <a href = "scien.html"> Научная деятельность</a>
+                <p class="tooltip-button">Контакты</p>
+                <div class="tooltip">gghghhg</div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const button = document.querySelector('.tooltip-button');
+                        const tooltip = document.createElement('div');
+                    
+                        tooltip.className = 'tooltip';
+                        tooltip.innerHTML = `
+                            <h3>Контакты</h3>
+                            <p>тексттексттекст</p>
+                        `;
+                        document.body.appendChild(tooltip);
+                    button.addEventListener('mouseenter', function() {
+                            tooltip.style.visibility = 'visible';
+                            tooltip.style.opacity = '1';
+                            const rect = button.getBoundingClientRect();
+                            tooltip.style.left = `${rect.left + window.scrollX + (button.offsetWidth / 2) - (tooltip.offsetWidth / 2)}px`;
+                            tooltip.style.top = `${rect.top + window.scrollY - tooltip.offsetHeight - 10}px`; // 10px отступ
+                        });
+                    
+                        button.addEventListener('mouseleave', function() {
+                            tooltip.style.visibility = 'hidden';
+                            tooltip.style.opacity = '0';
+                        });
+                    });
+                    </script>
+                </div>
+            </div>
+                <div class = "line">
+                
+                </div>
+
+      
+            <div class = "text_nach">
+                <p><b> IT-университет — это современное образовательное учреждение, которое готовит специалистов в области информационных технологий, обладающих высокими знаниями и практическими навыками, необходимыми для успешной карьеры в быстро меняющемся мире технологий.</b></p>
+            </div>
+
+        </section>
+        <div class = "line2">
+
+        </div>
+        <section class = "history">
+            <div class = "text_h">
+                 <p><b>История нашего IT-университета началась в 2010 году, когда группа энтузиастов в области информационных технологий осознала, что современная индустрия нуждается в высококвалифицированных специалистах, способных решать сложные задачи и внедрять инновации. Мы заметили, что традиционные образовательные учреждения не всегда успевают за стремительно развивающимися технологиями и требованиями рынка труда. Это вдохновило нас создать учебное заведение, которое будет.</b></p>
+            </div>
+        </section>
+
+        <section class = "option">
+            <div class = "zachis">
+                    <p><b> Зачисление</b></p>
+                    <div class = text_z>
+                        <div class = "img_z">
+                            <img src = "docu.png">
+                        </div>
+                        <p> положение о зачислении</p>
+                        
+                    </div>
+                    
+                    <div class = "text_z2">
+                        <p><b>Точные списки будут опубликованы<br> 20.08.25</b> </p>
+
+                    </div>
+                    <div class = "text_z3">
+                        <p><b>+79665658789 - горячая линия</b></p>
+                    </div>
+            </div>
+
+            <div class = "postup">
+                <p><b>Поступление</b></p>
+                <div class = text_p>
+                    <div class = "img_p">
+                    <img src = "docu.png">
+                     </div>
+                    <p> положение о поступлении</p>
+                </div>
+                <div class = "text_p2">
+                    <p><b>Поступай именно к нам!<br> 20.08.25</b> </p>
+
+                </div>
+                <div class = "text_p3">
+                    <p><b>+79665658789 - горячая линия</b></p>
+                </div>
+            </div>
+            <div class = "raspi">
+                <p><b> Расписание</b></p>
+                <div class = text_r>
+                    <div class = "img_r">
+                    <img src = "docu.png">
+                    </div>
+                    <p> расписание каникул</p>
+                </div>
+                <div class = text_r2>
+                    <div class = "img_r2">
+                    <img src = "docu.png">
+                    </div>
+                    <p> расписание экзаменов</p>
+                </div>
+                <div class = "text_r3">
+                    <p><b> +789645231689 - администрация</b></p>
+                </div>
+
+                
+               
+            </div>
+       
+        </section>
+        <div class = "line_3"></div>
+        <section class = "news">
+            <div class = "new_1">
+                <p> Новости</p>
+                    
+                     <img src = "news.png">
+                    </div>
+
+                
+            </div>
+            <div class = "new_2">
+                <p> Новости</p>
+                <img src = "news.png">
+            </div>
+            <div class = "new_3">
+                <p> Новости</p>
+                <img src = "news.png">
+            </div>
+        
+        </section>
+    </header>
+    <footer>
+    <section class = "footer">
+        <div class = "part">
+            <p><b> Наши партнеры</b></p>
+            <div class = "imges">
+                <img src = "sber.png">
+            </div>
+            <div class = "imges_t">
+                <img src = "tink.png">
+            </div>
+            <div class = "imges_y">
+                <img src = "yan.png">
+            </div>
+            <div class = "imges_xi">
+                <img src = "xi.png">
+            </div>
+        </div>
+        <div class = "conts">
+            <p><b>Наши контакты и адреса</b></p>
+            <div class = text_co>
+                <p>+78003533535  - директор универа Иванов И.И</p>
+                <p>+78005655912 - декан универа Петров П.П</p>
+                <p>+79665248675 - горячая линия</p>
+                <p>Юридический адрес: улица Солянка, д2к3</p>
+                <p>Адрес главного корпуса: улица Больших Каменщиков, д9к6 </p>
+            </div>
+        </div>
+        <div class = "comis">
+            <p><b>Приемная комиссия</b></p>
+            <div class = "text_mi">
+                <p>+7565598747 - телефон приемной комиссии</p>
+                <p>priem.comi@uni.com</p>
+            </div>
+            
+        </div>
+    </section>
+    </footer>
+</html>

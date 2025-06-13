@@ -1,0 +1,290 @@
+.glav_nach{
+    background: url("focul_n.jpg") center center;
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    background-size: cover;
+}
+.oblozh{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+a{
+    padding:30px;
+    text-decoration: none;
+    color:white;
+}
+.oblozh a:hover{
+    text-shadow: 5px 3.5px 3px rgb(59,59,59);
+}
+.line2{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    right: 30px;
+    left: 30px;
+    top: 7px;
+}
+.cont{
+    color:white;
+}
+.text_nach{
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 60px;
+    margin: 30px;
+    padding-left: 20px;
+    color:white;
+    font-size: 25px;
+    background-color: #90909070;
+    
+}
+.line{
+    width: 100%;
+    text-align:center;
+    font-size: 30px;
+    float:top;
+    position:relative;
+    top:0px;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.foculs_1{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.kiber{
+    background-color: #717A63;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+
+}
+.infor{
+    background-color: #7C7E5A;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}  
+.logic{
+    background-color: #BE945C;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.bioinz{
+    background-color: #BE945C;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.bizens{
+    background-color:#717A63;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.reklama{
+    background-color: #7C7E5A;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.text_b{
+    text-align: left;
+    margin:5px;
+    width: 100%;
+    height: 320px;
+    background: url("bio.png") center center ;
+    background-size: 100% 100%;
+}
+.text_k{
+    text-align: left;
+    margin:5px;
+    width: 100%;
+    height: 320px;
+    background: url("kiber.png") center center ;
+    background-size: 100% 100%;
+}
+.text_in{
+    text-align: left;
+    margin:5px;
+    width: 100%;
+    height: 320px;
+    background: url("inf.png") center center;
+    background-size: 100% 100%;
+}
+.text_l{
+    text-align: left;
+    margin:5px;
+    width: 100%;
+    height: 320px;
+    background: url("logic.png") center center;
+    background-size: 100% 100%;
+}
+.text_bi{
+    text-align: left;
+    margin:5px;
+    width: 100%;
+    height: 320px;
+    background: url("biznes.png") center center;
+    background-size: 100% 100%;
+}
+.text_re{
+    text-align: left;
+    margin:5px;
+    width: 100%;
+    height: 320px;
+    background: url("rek.png") center center;
+    background-size: 100% 100%;
+}
+
+.img_k, .img_in, .img_l, .img_r2, .img_b, .img_bi, .img_re{
+    width: max-content;
+    margin: 10px;
+
+
+}
+.img_k img, .img_in img, .img_l img, .img_r2 img, .img_b img, .img_bi img, .img_re img{
+    width:100%;
+    height: 100%;
+    
+}
+.text_k2 img center center, .text_in img center center, .text_l2 img center center, .text_b2 img center center, .text_bi img center center, .text_re2 img center center{
+    width: 200px;
+    
+}
+.text_k2, .text_l2, .text_b2, .text_bi2, .text_re2{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:80px;
+    right:50px;
+    text-align: center;
+    color:white;
+    font-size: 25px;
+}
+
+.text_b2, .text_re2, .text_in2{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:110px;
+    right:50px;
+    text-align: center;
+    color:white;
+    font-size: 25px;
+}
+li{
+    margin-bottom: 10px;
+}
+.foculs_2{
+    margin-top: 20px;;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 25px;
+}
+table{
+    width:100%;
+    border: 5px solid black;
+    font-size: 20px;
+}
+td{
+    border: 2px solid black;
+}
+.first{
+    border: white;
+}
+h1{
+    text-align:center;
+    font-size:25px; 
+}
+.footer{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+   
+    background-color: #3A3A2C;
+}
+.part{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.imges img{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+    float:left;
+    width: 80px;
+    height: 80px;
+}
+.imges_t img{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    
+    float:right;
+    width: 80px;
+    height: 80px;
+}
+.imges_y img{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+    float:left;
+    width: 80px;
+    height: 80px;
+}
+.imges_xi img{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 50px;
+    
+    float:right;
+    width: 80px;
+    height: 80px;
+}
+.conts{
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+}
+.text_co, .text_mi{
+    text-align: left;
+}
+.comis{
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+}
